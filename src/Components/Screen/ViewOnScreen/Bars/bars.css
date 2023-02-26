@@ -1,0 +1,47 @@
+.player{
+    margin: 20px;
+    height: auto;
+    width: 40%;
+    background-color: darkgray;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:flex-start;
+}
+.enemy{
+    margin: 20px;
+    height: auto;
+    width: 40%;
+    background-color: lightblue;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.player__name{
+    color:green;
+}
+.enemy__name{
+    color: white;
+}
+.bars{
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 85%;
+    justify-content: center;
+}
+.hp{
+    height: 20px;
+    background-color: red;
+    border-radius: 4px;
+}
+.mp{
+    height: 20px;
+    background-color: blue;
+    border-radius: 4px;
+}
